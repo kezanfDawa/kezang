@@ -1,0 +1,450 @@
+/* Syntax- here p is selector, color is property and blue is value. */
+p{
+    color:red;
+   
+}
+/* Comment in CSS */
+/* Backgrounds in CSS */
+#zangmo{
+    background-color: aqua;
+    background-image: url(data:image/jpeg;base64,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);
+    background-size: cover;
+    background-repeat: none;
+    opacity: 0.5;
+    background-attachment: scroll;
+    background-position: center;
+}
+/* CSS border style, width and color */
+#border{
+    border-style: dotted;
+    border-color: yellow;
+    border-width: 5px;
+}
+/* CSS margin top,bottom,right and left */
+#margin{
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+}
+
+/* CSS padding top, right, bottom and left */
+#padding{
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    border: 1px solid black;
+    background-color: lightblue;
+}
+
+/* CSS height and width */
+.heightwidth{
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+
+}
+/* CSS Box Model */
+#boxmodel{
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    
+}
+
+/* CSS Outline */
+p.dotted {outline-style: dotted;}
+p.dashed {outline-style: dashed;}
+p.solid {outline-style: solid;}
+p.double {outline-style: double;}
+p.groove {outline-style: groove;}
+p.ridge {outline-style: ridge;}
+p.inset {outline-style: inset;}
+p.outset {outline-style: outset;}
+
+/* CSS Text */
+.text{
+    text-align: justify;
+    text-decoration: solid;
+    text-decoration-color:blue;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-transform: uppercase;
+    letter-spacing: .01rem;
+    line-height: 1cm;
+    text-indent: 50px;
+    white-space: wrap;
+    word-spacing: 2px;
+    text-shadow: 1px 1px  black;
+}
+
+/* CSS Font */
+#font{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Google Font */
+#googlefont{
+    font-size: 20px;
+    font-family: 'Rubik Distressed', cursive;
+}
+
+/* CSS Icon */
+#icon{
+    font-size: 50px;
+    color: brown;
+
+}
+/* CSS Links */
+a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:hover {
+    color: hotpink;
+  }
+  
+  a:active {
+    color: blue;
+  }
+
+  /* CSS Lists */
+  ul{
+    list-style-type: square;
+    list-style-position: inside;
+  }
+
+  /* CSS Table */
+  #table {
+    border: 1px solid;
+    color: red;
+    width:50%;
+    text-align:center;
+  }
+
+  /* CSS Responsive Table */
+  table {
+    border-collapse: collapse;
+    width: 200%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
+
+  /* CSS Display Inline */
+  .inline{
+  display: inline;
+  }
+/* CSS Display Block */
+span{
+    display: block;
+}
+
+/* CSS Max-Width */
+div.ex1 {
+    width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+  }
+  
+  div.ex2 {
+    max-width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+  }
+
+  /* Static Position Property */
+  div.static {
+    position: static;
+    border: 3px solid #73AD21;
+  }
+
+  /* Relative Position Properties */
+  div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+  }
+  /* Fixed Position Property */
+  div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+  }
+  /* Absolute Position Property */
+  div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+  } 
+  
+  div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+  }
+
+  /* Sticky Position Property */
+  div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+  }
+
+ /* CSS Overflow */
+ #overflow{
+    width: 500px;
+    height:100px;
+    background-color: coral;
+    overflow: scroll;
+  }
+   /* CSS Float property */
+  /* Float Right property */
+  #pineapple {
+    float: right;
+  }
+  /* Float right property */
+  #left{
+    float: left;
+  }
+
+  /* CSS display inline, block and inline-block property */
+  span.a {
+    display: inline; /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;  
+    background-color: yellow; 
+  }
+  
+  span.b {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: yellow; 
+  }
+  
+  span.c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: yellow; 
+  }
+
+  /* CSS align element */
+  .center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+  }
+  /* CSS align image */
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* CSS Opacity */
+  /* Transparent image */
+  #transparent{
+    opacity: 0.5;
+  }
+  /* Transparent image hover opacity */
+  #bhutan{
+    opacity: 0.5;
+  }
+#bhutan:hover{
+  opacity: 1.0;
+}
+/* psuedo first child */
+p:first-child {
+  color: blue;
+}
+/* CSS vertical navigation bar */
+div ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  width: 60px;
+  background-color: #dddddd;
+}
+/* CSS Dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* CSS dropdown menu */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+/* CSS attribute seletor */
+a[target] {
+  background-color: yellow;
+}
+
+/* CSS animated search form */
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+/* CSS The !important rule */
+#myid {
+  background-color: blue;
+}
+
+.myclass {
+  background-color: gray;
+}
+
+#para {
+  background-color:#73AD21 !important;
+} 
+/* CSS border corner */
+#bodercorner{
+  border-radius:10px 15px 5px 10px;
+  height:100px;
+  width: 100px;
+  background-color: #4CAF50;
+}
+/* CSS Border Image */
+#borderimg { 
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 30 round;
+}
+/* Multiple Background Image */
+#background{
+  background-image: url("/123.jpg"), url("/456.png");
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding: 15px;
+
+}
+/* CSS text shadow */
+#shadow{
+  text-shadow: 5px 3px blue;
+}
+/* CSS Writing Mode */
+p.test1 {
+  writing-mode: horizontal-tb; 
+}
+
+span.test2 {
+  writing-mode: vertical-rl; 
+}
+
+p.test2 {
+  writing-mode: vertical-rl; 
+}
+/* CSS Web font */
+#font {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+#webfont{
+  font-family: myFirstFont;
+}
+/* tHank you */
+#huh{
+  text-align: center;
+  color: purple;
+}
